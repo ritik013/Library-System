@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: pink;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#nav{
+   background-color: gray;
+   position: sticky; 
+   top: 0px;
+   left: 0px;
+   padding: 5px;
+   text-align: center;
+   
+   
+}
+
+#ru1{
+    text-decoration: none;
+    color: azure;  
+    margin: 5px; 
+    font-size: larger; 
+}
+#ru2{
+    text-decoration: none;
+    color: azure;
+    margin: 5px;  
+    font-size: larger; 
+}
+ 
+.row{
+     background-color: aqua;
+}
+
+
+.row0{
+    background: aqua;
+}
+
+.table{
+    background-color: black;
+    text-align: center;
+    text-decoration: solid;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    
+}
+
+.nrow{
+    background-color: yellow;
+}
+
+.title{
+    text-align: left;
+}
+
+#books{
+    text-align: center;
+    height: 100vh;
+    background-color: tomato;
+}
+
+#register{
+    text-align: center;
+    background-color: pink;
+    height: 100vh;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: 200;
+    text-decoration: solid;
+    
+    
+}
+
+input[type=text], select, textarea{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+.box{
+    width: max-content;
+    height: max-content;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    box-sizing: content-box;
+    
+}
+
+input{
+    text-align: center;
+}
